@@ -57,7 +57,13 @@ main>div{
     background-color: deeppink;
 }
 
-footer{
+footer>div{
+    display: flex;
     height: 350px;
     background-color: orange;
+    justify-content: space-around;
+}
+
+.general-info>div{
+    flex-direction: column;
 }
