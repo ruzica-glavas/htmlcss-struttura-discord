@@ -67,3 +67,10 @@ footer>div{
 .general-info>div{
     flex-direction: column;
 }
+
+.logo{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: brown;
+}
