@@ -3,6 +3,10 @@
     background-color:blue;
 }
 
+main{
+    display: flex;
+}
+
 .first-box{
     height: 50px;
     background-color: red;
