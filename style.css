@@ -1,3 +1,9 @@
+html{
+    font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 header>div.info-principali{
     display: flex;
     justify-content: space-between;
