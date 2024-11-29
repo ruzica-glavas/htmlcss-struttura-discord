@@ -4,31 +4,41 @@
 }
 
 main{
+    padding: 60px;
+}
+
+main>div{
     display: flex;
+    justify-content: center;
 }
 
 .first-box{
-    height: 50px;
+    height: 100px;
+    flex-basis: 60%;
     background-color: red;
 }
 
 .second-box{
-    height: 50px;
+    height: 100px;
+    flex-basis: 60%;
     background-color: aqua;
 }
 
 .third-box{
-    height: 50px;
+    height: 100px;
+    flex-basis: 60%;
     background-color: blueviolet;
 }
 
 .fourth-box{
-    height: 50px;
+    height: 100px;
+    flex-basis: 60%;
     background-color: darkgreen;
 }
 
 .fifth-box{
-    height: 50px;
+    height: 100px;
+    flex-basis: 60%;
     background-color: deeppink;
 }
 
