@@ -4,12 +4,13 @@
 }
 
 main{
-    padding: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 main>div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .first-box{
