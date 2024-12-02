@@ -1,7 +1,7 @@
 html{
     font-family: "Roboto", serif;
-  font-weight: 100;
-  font-style: normal;
+    font-weight: 100;
+    font-style: normal;
 }
 
 header>div.info-principali{
@@ -20,47 +20,28 @@ nav{
 }
 
 main{
-    margin-left: 400px;
-    margin-right: 400px;
+    width:80%;
+    margin: auto;
 }
 
-main>div{
+.container-80{
     display: flex;
     justify-content: space-between;
 }
 
-.fifth-box{
+.text{
+    flex-basis: 40%;
+    height: 40px;
+}
+
+.img{
+    flex-basis: 60%;
+    height: 40px;
+}
+
+.container-big> div{
+    display: flex;
     justify-content: center;
-}
-
-.first-box{
-    height: 300px;
-    flex-basis: 60%;
-    background-color: red;
-}
-
-.second-box{
-    height: 300px;
-    flex-basis: 60%;
-    background-color: aqua;
-}
-
-.third-box{
-    height: 300px;
-    flex-basis: 60%;
-    background-color: blueviolet;
-}
-
-.fourth-box{
-    height: 400px;
-    flex-basis: 60%;
-    background-color: darkgreen;
-}
-
-.fifth-box{
-    height: 100px;
-    flex-basis: 60%;
-    background-color: deeppink;
 }
 
 footer>div{
